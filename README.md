@@ -42,6 +42,8 @@ The Linux distribution you choose doesn't really matter, but I'd recommend using
         * docker-compose is generally used to run complex applications with multiple services, but we'll be using it to dumb down the process of running a single pwn challenge locally (port mapping, bla bla bla).
 
 * If you're doing a challenge that requires a [specific libc version](https://shellblade.net/files/docs/ret2libc.pdf), usually you'll have to patch the binary to use that libc locally on your own.
-    * I like to use: [pwninit](https://github.com/io12/pwninit), but you can patch them manually with [patchelf](https://github.com/NixOS/patchelf) or [LD_PRELOAD](https://man7.org/linux/man-pages/man8/ld.so.8.html).
+    * I like to use: [pwninit](https://github.com/io12/pwninit), but you can patch them manually with [patchelf](https://github.com/NixOS/patchelf) or export [LD_PRELOAD](https://man7.org/linux/man-pages/man8/ld.so.8.html).
+
+* If you're doing a challenge that requires ROP gadgets, you can use [ROPgadget](https://github.com/JonathanSalwan/ROPgadget), or [Ropper](https://github.com/sashs/Ropper) to find your juicy gadgets.
 
 Next: [Pwning](./1.%20Pwning.md)
