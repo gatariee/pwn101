@@ -43,3 +43,5 @@ The Linux distribution you choose doesn't really matter, but I'd recommend using
 
 * If you're doing a challenge that requires a [specific libc version](https://shellblade.net/files/docs/ret2libc.pdf), usually you'll have to patch the binary to use that libc locally on your own.
     * I like to use: [pwninit](https://github.com/io12/pwninit), but you can patch them manually with [patchelf](https://github.com/NixOS/patchelf) or [LD_PRELOAD](https://man7.org/linux/man-pages/man8/ld.so.8.html).
+
+Next: [Pwning](./1.%20Pwning.md)
