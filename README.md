@@ -8,7 +8,7 @@ Binary exploitation is one of the more "niche" CTF categories that is often over
 Binary exploitation involves finding vulnerabilities, and exploiting them over a **remote** server (not to be confused with [Reverse Engineering](https://ctf101.org/reverse-engineering/overview/)) to gain control over the server, or cause unintended behavior. This is done by manipulating the memory of the program to execute arbitrary code, or to change the flow of the program.
 
 ## Why Binary Exploitation?
-Because it's very satisfying to pwn stuff, and if you get good enough at it; maybe you can find vulnerabilities for the NSA - [EternalBlue](https://en.wikipedia.org/wiki/EternalBlue#:~:text=EternalBlue%20is%20computer%20exploit%20software,computers%20connected%20to%20a%20network.) - [metasploit module]((https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/smb/ms17_010_eternalblue.rb))
+Because it's very satisfying to pwn stuff, and if you get good enough at it; maybe you can find vulnerabilities for the NSA - [EternalBlue](https://en.wikipedia.org/wiki/EternalBlue#:~:text=EternalBlue%20is%20computer%20exploit%20software,computers%20connected%20to%20a%20network.) - [metasploit module](https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/windows/smb/ms17_010_eternalblue.rb)
 
 ## Setup
 For the benefit of those who have never touched pwn before, we'll start all the way from the beginning. 
